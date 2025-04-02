@@ -1,0 +1,12 @@
+name: myboot
+title: myboot
+username: g91nmu-patrice-bettag
+account: g91nmu-patrice-bettag
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14413155
+bundleId: 10046367
+url: https://g91nmu-patrice-bettag.shinyapps.io/myboot/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

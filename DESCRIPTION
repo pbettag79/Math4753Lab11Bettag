@@ -1,16 +1,22 @@
 Package: Math4753Lab11PatriceBettag
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Point and Interval Estimates
 Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Author: Patrice R. Bettag
+Maintainer: Patrice R. Bettag <Patrice.R.Bettag-1@ou.edu>
+Description: This package includes various techniques to create point and interval estimates including bootstrap, t procedures, method of moments, and maximum likelihood.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    graphics,
+    stats,
+    shiny
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown,
+    dplyr
+VignetteBuilder: knitr
